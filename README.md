@@ -11,3 +11,57 @@ if you want to add a new course you must hire a specific teacher who can teach t
 
 - ### for a former manager who has recently developed Alzheimer
 
+- ## courses
+
+
+| property | deccribtion |
+| --- | --- |
+| id | unique identifier for each course, e.g.1001
+|name | course name, e.g. "ali"
+| unit | number of course units/credits, e.g. 3
+
+- ## student
+
+
+| property | deccribtion |
+| --- | --- |
+| id | unique identifier for each student, e.g.2001 |
+|name | student's first name e.g. "reza |
+| family | student's last name e.g. "ahmadi" |
+|courses | list of courses |
+
+- ## teachers
+
+
+| property | deccribtion |
+| --- | --- |
+| id | unique identifier for each teacher, e.g.3001 |
+|name | teacher's first name |
+| family | teacher's last name |
+| grade | teacher's grade/rank e.g. "HTP"
+|courses | list of courses |
+
+- ## classroom
+
+
+| property | deccribtion |
+| --- | --- |
+| id | unique identifier for each classroom, e.g.4001 |
+|name | classroom's name |
+|courses | list of courses |
+|students | list of students |
+|teachers | list of teachers |
+
+- ## school
+
+
+| property | deccribtion |
+| --- | --- |
+|name | school's name |
+|courses | list of courses |
+|students | list of students |
+|teachers | list of teachers |
+|classrooms | list of classrooms |
+
+
+
