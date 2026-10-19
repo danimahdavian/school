@@ -67,6 +67,15 @@ if you want to add a new course you must hire a specific teacher who can teach t
 
 When you run the program, a main menu is printed to the console. The user picks an option by typing a number and pressing Enter
 
+```
+1.student
+2.teacher   
+3.courses   
+4.classrooms
+5.save      
+0.exit      
+```
+
 | option | action |
 | --- | --- |
 |1 | open students menu |
@@ -82,6 +91,14 @@ Example: User presses 1 (Students)
 
 The Students submenu is printed with the following options
 
+```
+1.print students
+2.add student   
+3.edit student  
+4.delete student
+5.select student
+0.back
+```
 | option | action |
 | --- | --- |
 |1 | show info __ print students |
