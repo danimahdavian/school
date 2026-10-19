@@ -63,5 +63,40 @@ if you want to add a new course you must hire a specific teacher who can teach t
 |teachers | list of teachers |
 |classrooms | list of classrooms |
 
+# How it works
+
+When you run the program, a main menu is printed to the console. The user picks an option by typing a number and pressing Enter
+
+| option | action |
+| --- | --- |
+|1 | open students menu |
+|2 | open teachers menu |
+|3 | open courses menu |
+|4 | open classrooms menu |
+|5 | save |
+|0 | go back / exit |
+
+Pressing 0 anywhere takes you back to the previous menu
+
+Example: User presses 1 (Students)
+
+The Students submenu is printed with the following options
+
+| option | action |
+| --- | --- |
+|1 | show info __ print students |
+|2 | Add Student — create a new student record |
+|3 | Edit Student — modify an existing student |
+|4 | Delete Student — remove a student |
+|5 | Select Student — view/search student details |
+|0 | Back — return to the main menu |
+
+- The program is fully menu-driven — no command-line arguments needed; just run it and follow the prompts.
+- very submenu (Teachers, Courses, Classrooms) follows the same 1–4 pattern: Add → Edit → Delete → Select, with 5 as Back
+- Input is read line-by-line from stdin, so the user just types a number and hits Enter.
+- nvalid input is expected to be handled gracefully (re-print the menu or show an error) — otherwise the program might crash like a drama queen.
+- Option 5 on the main menu saves everything (e.g., to a file or database) so your data doesn't vanish into the void when the program closes
+- The design is intentionally simple: a loop prints the menu, reads a choice, dispatches to the right function, and repeats until the user exits
+
 
 
