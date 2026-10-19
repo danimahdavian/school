@@ -11,7 +11,7 @@ if you want to add a new course you must hire a specific teacher who can teach t
 
 - ### for a former manager who has recently developed Alzheimer
 
-- ## courses
+- ## course
 
 
 | property | deccribtion |
@@ -30,7 +30,7 @@ if you want to add a new course you must hire a specific teacher who can teach t
 | family | student's last name e.g. "ahmadi" |
 |courses | list of courses |
 
-- ## teachers
+- ## teacher
 
 
 | property | deccribtion |
